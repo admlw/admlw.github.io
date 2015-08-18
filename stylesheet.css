@@ -1,0 +1,25 @@
+<style>
+#header {
+	background-color:white;
+	color:black;
+	text-align:center;
+	padding:5px;
+}
+
+#personal {
+	background-color:grey;
+	color:white;
+	height: 300px;
+	width:100%;
+	padding:0;
+}
+
+#content {
+	background-color:white;
+	color:black;
+	height:600px;
+	width:100%;
+	padding:0;
+}
+
+</style>
