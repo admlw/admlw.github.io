@@ -1,25 +1,102 @@
 <style>
-#header {
-	background-color:white;
-	color:black;
-	text-align:center;
-	padding:5px;
+
+html, body {
+	padding:0;
+	margin:0;
 }
 
-#personal {
-	background-color:grey;
-	color:white;
-	height: 300px;
-	width:100%;
-	padding:0;
-}
+	h1 {
+		font-family: "ff-dagny-web-pro",sans-serif;
+		font-size: 30px;
+		font-weight: 400;
+	}
 
-#content {
-	background-color:white;
-	color:black;
-	height:600px;
-	width:100%;
-	padding:0;
-}
+	p {
+		margin: 0px;	
+	}
+
+	#header {
+		background-color:white;
+		color:black;
+		text-align:center;
+		padding:0px;
+		margin:0px;
+		height: 100px;
+	}
+
+		#headerinner {
+			background-color:green;
+			height:100px;
+			width:80%;
+			max-width:800px;
+			min-width:600px;
+			margin: 0 auto;
+		}
+
+		#titlecontainer {
+			background-color:blue;
+			text-align:center;
+			width:200px;
+			float:left;
+			margin:0 0 0 25px;
+			height:100px;
+		}
+
+	#personal {
+		background-color:#101010;
+		color:white;
+		height: 300px;
+		width:100%;
+		padding-top:0px;
+		margin:0px;
+	}
+
+		#personalinner {
+		width:80%;
+		max-width:580px;
+		min-width:520px;
+		margin: 0 auto;
+		height:200px;
+		padding-top:50px;
+		}
+		
+			#circular {
+				border-radius: 50%;
+				width:200px;
+				height:200px;
+				background: black;
+				border: 2px solid white;
+				position:absolute;
+				margin: auto;
+				float: left;
+				display: absolute;
+			}
+
+			#personalcontent {
+				width: 300px;
+				height: 200px;
+				background: green;
+				float: right;
+				margin: auto;
+				display: absolute;
+				vertical-align: 50%;
+			}
+
+	#content {
+		background-color:#D4D4D4;
+		color:black;
+		height:600px;
+		width:100%;
+		margin:auto;
+		padding-top:0px;
+	}
+
+		#contentcontent {
+			width: 80%;
+			max-width: 800px;
+			min-width: 600px;
+			margin: 0px auto;
+			padding-top:25px;
+		}
 
 </style>
