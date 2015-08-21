@@ -3,19 +3,20 @@
 html, body {
 	padding:0;
 	margin:0;
-	font-family: "Arial",sans-serif;
+	font-family: "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 }
 
 	h1 {
-		font-family: "ff-dagny-web-pro",sans-serif;
+		font-family: "proxima-nova","Helvetica Neue", Arial, sans-serif;
 		font-size: 30px;
 		font-weight: 400;
 	}
 
 	p {
 		margin: 0px;	
-		font-family: "Arial",sans-serif;
+		font-family: "proxima-nova","Helvetica Neue", Arial, sans-serif;
 	}
+	
 
 	#header {
 		background-color:white;
@@ -46,7 +47,7 @@ html, body {
 	#personal {
 		background-color:#101010;
 		color:white;
-		height: 300px;
+		height: 50px;
 		width:100%;
 		padding-top:0px;
 		margin:0px;
@@ -57,31 +58,55 @@ html, body {
 		max-width:580px;
 		min-width:520px;
 		margin: 0 auto;
-		height:200px;
-		padding-top:50px;
+		height:50px;
+		padding-top:0;
 		}
 		
-			#circular {
-				border-radius: 50%;
-				width:200px;
-				height:200px;
-				background: url(images/meimg2.JPG);
-				border: 2px solid white;
-				position:absolute;
+			#personalinner ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 15px 0 0 0;
+			}
+	
+			#personalleft {
+				width:260px;
+				height:50px;
 				margin: auto;
 				float: left;
 				display: absolute;
 			}
+			
+				#personalleft li {
+					float: left;
+				}
+				
+				#personalleft a {
+					display: block;
+					width: 120px;
+					color: white;
+					font-family: "proxima-nova","Helvetica Neue", Arial, sans-serif;
+					text-decoration: none;
+				}
+	
 
-			#personalcontent {
-				width: 300px;
-				height: 200px;
+			#personalright {
+				width: 260px;
+				height: 50px;
 				float: right;
 				margin: auto;
 				display: absolute;
-				vertical-align: 50%;
 			}
 
+				#personalright li {
+					float: right;
+				}
+				
+				#personalright a {
+					display: block;
+					width: 50px;
+				}
+				
+				
 	#content {
 		background-color:#D4D4D4;
 		color:black;
@@ -98,5 +123,63 @@ html, body {
 			margin: 0px auto;
 			padding-top:25px;
 		}
+		
+			#contactmecontainer {
+				width: 100%;
+				height: 70px;
+			}
+		
+			#contactme {
+				width: 240px;
+				margin: 0 auto 0 auto;
+				height: 70px;
+			}
+			
+			#contentdiv {
+				width: 80%;
+				min-width: 520px;
+				max-width: 800px;
+				margin: auto;
+				padding: 25px 0 25px 0;
+			}
+		
+			#contentcontent ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				margin: 0 auto;
+			}
+
+			#contentcontent li {
+				float:left;
+				padding:10px;
+			}
+			
+			#contentcontent a {
+				display:block;
+				padding: 0;
+				width:60px;
+			}
+		
+			.twitlink {
+					width:60px;
+					height:60px;
+					display: block;
+					background: url(images/Twitter.png) center top no-repeat;
+			}
+				
+			.lilink {
+					width: 60px;
+					height: 60px;
+					display: block;
+					background: url(images/LinkedIN.png) center top no-repeat;
+			}
+				
+			.gitlink {
+					width: 60px;
+					height: 60px;
+					display: block;
+					background: url(images/Github.png) center top no-repeat;
+			}
 
 </style>
