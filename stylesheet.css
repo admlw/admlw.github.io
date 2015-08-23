@@ -1,16 +1,20 @@
 <style>
 
-html, body {
-	padding:0;
-	margin:0;
+html {
 	font-family: "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+	min-height: 100%;
+	margin: 0;
+	position: relative;
 }
 
-	h1 {
-		font-family: "proxima-nova","Helvetica Neue", Arial, sans-serif;
-		font-size: 30px;
-		font-weight: 400;
-	}
+body {
+	font-family: "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+	margin: 0 0 32px;
+	background: url(images/bg2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
 
 	p {
 		margin: 0px;	
@@ -44,142 +48,119 @@ html, body {
 			height:100px;
 		}
 
-	#personal {
+	#navbar {
 		background-color:#101010;
-		color:white;
+		color: #D4D4D4;
 		height: 50px;
 		width:100%;
 		padding-top:0px;
-		margin:0px;
+		margin:0 0 25px 0;
 	}
 
-		#personalinner {
+		#navbarinner {
 		width:80%;
-		max-width:580px;
-		min-width:520px;
+		max-width:800px;
+		min-width:600px;
 		margin: 0 auto;
 		height:50px;
 		padding-top:0;
 		}
 		
-			#personalinner ul {
+			#navbarinner ul {
 				list-style-type: none;
 				margin: 0;
-				padding: 15px 0 0 0;
-			}
-	
-			#personalleft {
-				width:260px;
-				height:50px;
-				margin: auto;
-				float: left;
-				display: absolute;
+				padding: 15px 0 0 35px;
 			}
 			
-				#personalleft li {
-					float: left;
-				}
-				
-				#personalleft a {
-					display: block;
-					width: 120px;
-					color: white;
-					font-family: "proxima-nova","Helvetica Neue", Arial, sans-serif;
-					text-decoration: none;
-				}
+			#navbarinner li {
+				float: left;
 	
-
-			#personalright {
-				width: 260px;
-				height: 50px;
-				float: right;
-				margin: auto;
-				display: absolute;
 			}
-
-				#personalright li {
-					float: right;
-				}
-				
-				#personalright a {
-					display: block;
-					width: 50px;
-				}
-				
+			
+			#navbar a {
+				color: #F4F4F4;
+				display: block;
+				font-family: "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+				text-decoration: none;
+				width: 120px;
+			}			
 				
 	#content {
-		background-color:#D4D4D4;
+		/*background-color:#D4D4D4;*/
 		color:black;
-		height:600px;
 		width:100%;
-		margin:auto;
 		padding-top:0px;
+		min-height: 100%;
 	}
 
-		#contentcontent {
+		#contentinner {
+			background-color: rgba(255,255,255,0.8);
+			border-radius: 3px;
 			width: 80%;
 			max-width: 800px;
 			min-width: 600px;
 			margin: 0px auto;
-			padding-top:25px;
+			padding: 10px 20px 25px 20px;
 		}
 		
-			#contactmecontainer {
-				width: 100%;
-				height: 70px;
-			}
 		
-			#contactme {
-				width: 240px;
-				margin: 0 auto 0 auto;
-				height: 70px;
-			}
-			
-			#contentdiv {
-				width: 80%;
-				min-width: 520px;
-				max-width: 800px;
-				margin: auto;
-				padding: 25px 0 25px 0;
-			}
-		
-			#contentcontent ul {
+			#contentinner ul {
 				list-style-type: none;
 				margin: 0;
 				padding: 0;
 				margin: 0 auto;
 			}
 
-			#contentcontent li {
+			#contentinner li {
 				float:left;
 				padding:10px;
 			}
 			
-			#contentcontent a {
+			#contentinner a {
 				display:block;
 				padding: 0;
 				width:60px;
 			}
+			
+		#contactmecontainer {
+				width: 100%;
+				height: 80px;
+		}
 		
-			.twitlink {
+			#contactme {
+				width: 240px;
+				margin: 0 auto 0 auto;
+				height: 80px;
+			}
+		
+				.twitlink {
 					width:60px;
 					height:60px;
 					display: block;
 					background: url(images/Twitter.png) center top no-repeat;
-			}
+				}
 				
-			.lilink {
+				.lilink {
 					width: 60px;
 					height: 60px;
 					display: block;
 					background: url(images/LinkedIN.png) center top no-repeat;
-			}
+				}
 				
-			.gitlink {
+				.gitlink {
 					width: 60px;
 					height: 60px;
 					display: block;
 					background: url(images/Github.png) center top no-repeat;
-			}
+				}
+			
+	#footer {
+		bottom: 0;
+		height: 32px;
+		left: 0;
+		position: absolute;
+		width: 100%;
+		background-color: #101010;
+	}	
 
 </style>
