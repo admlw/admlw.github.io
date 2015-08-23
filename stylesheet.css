@@ -78,7 +78,7 @@ body {
 			}
 			
 			#navbar a {
-				color: #F4F4F4;
+				color: #D4D4D4;
 				display: block;
 				font-family: "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 				text-decoration: none;
@@ -162,5 +162,12 @@ body {
 		width: 100%;
 		background-color: #101010;
 	}	
+	
+	#footer p {
+		padding-top:10px;
+		color: #D4D4D4;
+		text-align: center;
+		font-size: 8px;
+	}
 
 </style>
