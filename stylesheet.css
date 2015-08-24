@@ -1,24 +1,40 @@
 <style>
-
 html {
-	font-family: "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 	min-height: 100%;
 	margin: 0;
 	position: relative;
 }
 
+@font-face {
+    font-family: 'Merriweather';
+    src: url('fonts/Merriweather-Regular.woff') format('woff'),
+         url('fonts/Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tex';
+    src: url('fonts/texgyrepagella-regular-webfont.woff') format('woff'),
+         url('fonts/texgyrepagella-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+	
 body {
-	font-family: "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 	margin: 0 0 32px;
 	background: url(images/bg.jpg) no-repeat center center fixed #D4D4D4;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
+	font-family: 'tex', serif;
+	font-size: 18px;
+	line-height:150%;
+	color: #909090
 }
 
 	p {
 		margin: 0px;	
-		font-family: "proxima-nova","Helvetica Neue", Arial, sans-serif;
 	}
 	
 
@@ -40,13 +56,20 @@ body {
 		}
 
 		#titlecontainer {
-			background: url(images/title.png);
+			/*background: url(images/title.png);*/
 			text-align:center;
-			width:200px;
+			width:500px;
 			float:left;
-			margin:0 0 0 25px;
+			margin:0 0 0 -62px;
 			height:100px;
+			color: #FF6600;
 		}
+		
+			#titlecontainer h1 {
+				font-weight: 400;
+				font-size: 50px;
+				font-family: 'Merriweather', serif;
+			}
 
 	#navbar {
 		background-color:#101010;
@@ -69,7 +92,7 @@ body {
 			#navbarinner ul {
 				list-style-type: none;
 				margin: 0;
-				padding: 15px 0 0 35px;
+				padding: 12px 0 0 35px;
 			}
 			
 			#navbarinner li {
@@ -79,10 +102,11 @@ body {
 			
 			#navbar a {
 				color: #D4D4D4;
-				display: block;
-				font-family: "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+				display: inline;
 				text-decoration: none;
-				width: 120px;
+				padding-right: 50px;
+				font-size: 24px;
+				font-family: 'Merriweather', serif;
 			}			
 				
 	#content {
@@ -99,15 +123,15 @@ body {
 			width: 80%;
 			max-width: 800px;
 			min-width: 600px;
-			margin: 0px auto;
-			padding: 10px 20px 25px 20px;
+			margin: 0px auto 50px auto;
+			padding: 10px 20px 15px 20px;
 		}
 		
 		
 			#contentinner ul {
 				list-style-type: none;
 				margin: 0;
-				padding: 0;
+				padding: 0 0 10px 0;
 				margin: 0 auto;
 			}
 
@@ -158,13 +182,15 @@ body {
 		bottom: 0;
 		height: 32px;
 		left: 0;
-		position: absolute;
+		position: Fixed;
+		/*position: absolute;*/ /*for when content is longer than page length!*/
+		/*padding: -32px;*/ /*find a way to make this happen dynamically (sticky footer)*/
 		width: 100%;
 		background-color: #101010;
 	}	
 	
 	#footer p {
-		padding-top:10px;
+		padding-top:2px;
 		color: #D4D4D4;
 		text-align: center;
 		font-size: 8px;
