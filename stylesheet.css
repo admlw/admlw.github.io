@@ -6,28 +6,28 @@ html {
 }
 
 @font-face {
-    font-family: 'Merriweather';
-    src: url('fonts/Merriweather-Regular.woff') format('woff'),
-         url('fonts/Merriweather-Regular.ttf') format('truetype');
+    font-family: 'bebas';
+    src: url('fonts/bebas-webfont.woff') format('woff'),
+         url('fonts/bebas-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'tex';
-    src: url('fonts/texgyrepagella-regular-webfont.woff') format('woff'),
-         url('fonts/texgyrepagella-regular-webfont.ttf') format('truetype');
+    font-family: 'cicle';
+    src: url('fonts/Cicle_Semi-webfont.woff') format('woff'),
+         url('fonts/Cicle_Semi-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 	
 body {
 	margin: 0 0 32px;
-	background: url(images/bg.jpg) no-repeat center center fixed #D4D4D4;
+	background: white;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	font-family: 'tex', serif;
+	font-family: 'Cicle', serif;
 	font-size: 18px;
 	line-height:150%;
 	color: #909090
@@ -37,62 +37,65 @@ body {
 		margin: 0px;	
 	}
 	
+	a {
+		text-decoration: none;
+	}
+	
 
 	#header {
-		background-color:white;
-		color:black;
-		text-align:center;
+		background-color: white;
+		color: /*#EA7000*/#33CC3A;
 		padding:0px;
 		margin:0px;
-		height: 100px;
+		height: 90px;
 	}
 
 		#headerinner {
-			height:100px;
+			height:90px;
 			width:80%;
 			max-width:800px;
 			min-width:600px;
-			margin: 0 auto;
+			margin: 0 auto 0 auto;
 		}
 
 		#titlecontainer {
 			/*background: url(images/title.png);*/
-			text-align:center;
+			text-align:left;
 			width:500px;
 			float:left;
-			margin:0 0 0 -62px;
-			height:100px;
-			color: #FF6600;
-		}
+			height: 90px;
+			padding-top: 20px;
+			}
 		
 			#titlecontainer h1 {
 				font-weight: 400;
-				font-size: 50px;
-				font-family: 'Merriweather', serif;
+				font-size: 60px;
+				font-family: 'bebas', sans-serif;
 			}
 
 	#navbar {
-		background-color:#101010;
-		color: #D4D4D4;
+		background-color: white;
 		height: 50px;
 		width:100%;
-		padding-top:0px;
-		margin:0 0 25px 0;
+		margin: 0 0 25px 0;
+		padding-top: 0px;
+		font-size: 0;
 	}
 
 		#navbarinner {
-		width:80%;
-		max-width:800px;
-		min-width:600px;
-		margin: 0 auto;
-		height:50px;
-		padding-top:0;
+			width:80%;
+			max-width:800px;
+			min-width:600px;
+			height: 50px;
+			background-color:white;
+			margin: 0 auto;
+			padding-top: 0px;
 		}
 		
 			#navbarinner ul {
 				list-style-type: none;
-				margin: 0;
-				padding: 12px 0 0 35px;
+				padding: 0;
+				width:400px;
 			}
 			
 			#navbarinner li {
@@ -101,13 +104,15 @@ body {
 			}
 			
 			#navbar a {
-				color: #D4D4D4;
+				float:left;
+				color: /*#EA7000*/#33CC3A;
 				display: inline;
 				text-decoration: none;
-				padding-right: 50px;
+				padding-right: 61px;
 				font-size: 24px;
-				font-family: 'Merriweather', serif;
-			}			
+				font-family: 'cicle', sans-serif;
+			}
+
 				
 	#content {
 		/*background-color:#D4D4D4;*/
@@ -127,55 +132,22 @@ body {
 			padding: 10px 20px 15px 20px;
 		}
 		
-		
-			#contentinner ul {
-				list-style-type: none;
-				margin: 0;
-				padding: 0 0 10px 0;
-				margin: 0 auto;
-			}
-
-			#contentinner li {
-				float:left;
-				padding:10px;
-			}
-			
-			#contentinner a {
-				display:block;
-				padding: 0;
-				width:60px;
-			}
-			
-		#contactmecontainer {
-				width: 100%;
-				height: 80px;
-		}
-		
 			#contactme {
 				width: 240px;
 				margin: 0 auto 0 auto;
 				height: 80px;
 			}
 		
-				.twitlink {
-					width:60px;
-					height:60px;
-					display: block;
-					background: url(images/Twitter.png) center top no-repeat;
+				.twitlink:link,  .twitlink:visited {
+					color: #00aced;
 				}
 				
-				.lilink {
-					width: 60px;
-					height: 60px;
-					display: block;
-					background: url(images/LinkedIN.png) center top no-repeat;
+				.lilink:link, .lilink:visited {
+					color: #007bb6;
 				}
 				
-				.gitlink {
-					width: 60px;
-					height: 60px;
-					display: block;
-					background: url(images/Github.png) center top no-repeat;
+				.gitlink:link, .gitlink:visited {
+					color: #666666;
 				}
 			
 	#footer {
@@ -186,7 +158,7 @@ body {
 		/*position: absolute;*/ /*for when content is longer than page length!*/
 		/*padding: -32px;*/ /*find a way to make this happen dynamically (sticky footer)*/
 		width: 100%;
-		background-color: #101010;
+		background-color: white;
 	}	
 	
 	#footer p {
