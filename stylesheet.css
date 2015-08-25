@@ -37,13 +37,14 @@ body {
 		margin: 0px;	
 	}
 	
-	a {
+	a , a:visited {
 		text-decoration: none;
+		color: black;
 	}
 	
 	h2 {
 		font-family: 'bebas', sans-serif;
-		font-size: 30px;
+		font-size: 25px;
 	}
 	
 
