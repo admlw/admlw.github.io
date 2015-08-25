@@ -41,6 +41,11 @@ body {
 		text-decoration: none;
 	}
 	
+	h2 {
+		font: bebas;
+		font-size: 30px;
+	}
+	
 
 	#header {
 		background-color: white;
