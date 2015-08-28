@@ -6,8 +6,9 @@ title: Adventures of a Physics PhD
   <ul class="posts" style="list-style-type=none;">
   
     {% for post in site.posts %}
-      <li style="list-style-type=none;"><span>{{ post.date | date_to_string }}</span>
-      <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2></li>
+      <li style="list-style-type=none;">
+      <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+      <span>{{ post.date | date_to_string }}</span></li>
       <li style="list-style-type=none;">{{ post.content | strip_html | truncatewords: 50 }}</li>
         {% endfor %}
       </ul>
