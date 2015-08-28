@@ -3,12 +3,11 @@ layout: default
 title: Adventures of a Physics PhD
 ---
   <h2>{{ page.title }}</h2>
-  <ul style="list-style-type: none;" class="posts">
+  <ul style="list-style-type: none;maring: 0;padding: 0;" class="posts">
   
     {% for post in site.posts %}
-      <li>
-      <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-      <span>{{ post.date | date_to_string }}</span></li>
-      <li><span>{{ post.content | strip_html | truncatewords: 50 }}</span></li>
+      <li><h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2></li>
+      <li>{{ post.date | date_to_string }}</li>
+      <li>{{ post.content | strip_html | truncatewords: 50 }}</li>
         {% endfor %}
       </ul>
