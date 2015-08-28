@@ -3,6 +3,7 @@ html {
 	min-height: 100%;
 	margin: 0;
 	position: relative;
+	overflow-y: scroll;
 }
 
 @font-face {
