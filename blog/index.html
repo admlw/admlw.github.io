@@ -7,6 +7,6 @@ title: Adventures of a Physics PhD
     {% for post in site.posts %}
       <li><h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2></li>
       <li>{{ post.date | date_to_string }}</li>
-      <li><br>{{ post.content | strip_html | truncatewords: 50 }}</li>
+      <li>{{ post.content | strip_html | truncatewords: 50 }}</li>
         {% endfor %}
       </ul>
