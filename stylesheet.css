@@ -30,7 +30,7 @@ body {
 	font-family: 'Cicle', serif;
 	font-size: 18px;
 	line-height:150%;
-	color: #909090
+	color: #515151;
 }
 
 	p {
@@ -39,7 +39,7 @@ body {
 	
 	a , a:visited {
 		text-decoration: none;
-		color: black;
+		color: #515151;
 	}
 	
 	h2 {
@@ -124,7 +124,7 @@ body {
 				
 	#content {
 		/*background-color:#D4D4D4;*/
-		color:black;
+		color: #515151;
 		width:100%;
 		padding-top:0px;
 		min-height: 100%;
@@ -171,7 +171,7 @@ body {
 	
 	#footer p {
 		padding-top:2px;
-		color: #D4D4D4;
+		color: #515151;;
 		text-align: center;
 		font-size: 8px;
 	}
