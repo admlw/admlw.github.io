@@ -4,25 +4,23 @@ title: Adventures of a Physics PhD
 ---
 
 <script type="text/javascript">
-      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-      var disqus_shortname = 'adamlisternet'; // required: replace example with your forum shortname
-      // var disqus_developer = 1; // Comment out when the site is live
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'adamlisternet'; // required: replace example with your forum shortname
 
-      /* * * DON'T EDIT BELOW THIS LINE * * */
-      (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-      }());
-    </script>
-
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+var s = document.createElement('script'); s.async = true;
+s.type = 'text/javascript';
+s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script> 
 
   <ul style="list-style-type: none;margin: 0;padding: 0; display: inline;" class="posts">
   
     {% for post in site.posts %}
       <li><h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2></li>
-      <li><h3>{{ post.date | date_to_string }}, <a href="{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{post.url}}"></a>
+      <li><h3>{{ post.date | date_to_string }}, <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.url}}"></a>
 </h3></li>
       <li>{{ post.content | strip_html | truncatewords: 50 }}</li>
         {% endfor %}
