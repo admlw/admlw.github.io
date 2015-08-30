@@ -50,6 +50,12 @@ body {
 		color: #515151;
 	}
 	
+	h3 {
+		font-family: 'cicle', sans-serif;
+		font-size: 20px;
+		color: #D4D4D4;
+	}
+	
 
 	#header {
 		background-color: white;
