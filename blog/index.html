@@ -20,7 +20,7 @@ s.src = '//' + disqus_shortname + '.disqus.com/count.js';
   
     {% for post in site.posts %}
       <li><h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2></li>
-      <li><h3>{{ post.date | date_to_string }}, <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.url}}"></a>
+      <li><h3>{{ post.date | date_to_string }}, <a href="{{ post.url }}#disqus_thread"></a>
 </h3></li>
       <li>{{ post.content | strip_html | truncatewords: 50 }}</li>
         {% endfor %}
