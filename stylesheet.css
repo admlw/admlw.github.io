@@ -44,7 +44,7 @@ body {
 	}
 	
 	h2 {
-		font-family: 'cicle', sans-serif;
+		font-family: 'Montserrat', 'cicle', sans-serif;
 		font-size: 35px;
 		color: #515151;
 		margin-top: 50px;
@@ -52,7 +52,7 @@ body {
 	}
 	
 	h3 {
-		font-family: 'cicle', sans-serif;
+		font-family: 'Montserrat', 'cicle', sans-serif;
 		font-size: 20px;
 		color: #8C8C8C;
 	}
@@ -86,7 +86,7 @@ body {
 			#titlecontainer h1 {
 				font-weight: 400;
 				font-size: 60px;
-				font-family: 'bebas', sans-serif;
+				font-family: 'Montserrat','bebas', sans-serif;
 			}
 
 	#navbar {
@@ -126,7 +126,7 @@ body {
 				text-decoration: none;
 				padding-right: 61px;
 				font-size: 24px;
-				font-family: 'cicle', sans-serif;
+				font-family: 'Montserrat','cicle', sans-serif;
 			}
 
 				
