@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.nova-block {
+  background: url('../images/novaexperimentmod.jpg') 0 0 no-repeat;
+}
+
+.dune-block {
+  background: url('../images/protodune-cern-201803-89_01.jpg') 0 0 no-repeat;
+}
+
+.ub-block {
+  background: url('../images/run3493_subrun821_event41075_col-crop-1300x400mod.jpg') 0 0 no-repeat;
+}
+
+.nova-block,
+.dune-block,
+.ub-block {
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  text-align: center;
+  min-height: 200px;
+}
+
+.nova-block:hover .overlay-nova,
+.ub-block:hover .overlay-ub,
+.dune-block:hover .overlay-dune {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.overlay-nova,
+.overlay-dune,
+.overlay-ub{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+
+.overlay-nova{
+  background-color: rgba(255, 206, 45, 0.6);
+}
+
+.overlay-dune{
+  background-color: rgba(241, 80, 37, 0.6);
+}
+
+.overlay-ub{
+  background-color: rgba(215, 60, 103, 0.6);
+}
+
+.nova-block a,
+.dune-block a,
+.ub-block a {
+  color: #fff;
+}
+
+.nova-block h3,
+.dune-block h3,
+.ub-block h3 {
+  color: #fff;
+  font-weight:bold;
+  padding: 100px 30px;
+  text-shadow: 0px 0px 5px #000;
+}
+
+@media screen and (max-width: 768px) {
+  .nova-block,
+  .dune-block,
+  .ub-block {
+    margin-bottom: 20px
+  }
+}
+
+.bg-navbar {
+  background-color: #282828;
+}
