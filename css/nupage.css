@@ -86,3 +86,9 @@ body {
 .bg-navbar {
   background-color: #282828;
 }
+
+.container section:first-child {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
