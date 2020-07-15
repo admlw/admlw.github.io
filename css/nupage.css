@@ -6,16 +6,28 @@ body {
   -o-background-size: cover;
 }
 
+.index-head {
+  background-color: #282828
+}
+
+.index-head h1 {
+  color: #fff
+}
+
+.index-head p {
+  color: #fff
+}
+
 .nova-block {
-  background: url('../images/novaexperimentmod.jpg') 0 0 no-repeat;
+  background: url('../images/nova.png') 0 0 no-repeat;
 }
 
 .dune-block {
-  background: url('../images/protodune-cern-201803-89_01.jpg') 0 0 no-repeat;
+  background: url('../images/dune.png') 0 0 no-repeat;
 }
 
 .ub-block {
-  background: url('../images/run3493_subrun821_event41075_col-crop-1300x400mod.jpg') 0 0 no-repeat;
+  background: url('../images/uboone.png') 0 0 no-repeat;
 }
 
 .nova-block,
