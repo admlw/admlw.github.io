@@ -1,23 +1,98 @@
+
 body {
-  background-color: white;
+  background-color: #f7f7f7;
+  font-size: 20px;
+  font: Helvetica, Ariel, sans-serif;
+  color: #211A1D;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 
-.index-head {
-  background-color: #282828
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
 
-.index-head h1 {
-  color: #fff
+/*.....................................
+  navbar
+ ......................................*/
+.bg-navbar {
+  background-color: #f7f7f7;
 }
 
-.index-head p {
-  color: #fff
+/*.....................................
+  title
+ ......................................*/
+.page-title {
+  font-family: overpass;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #FAA916;
 }
 
+.page-title:hover{
+  color: #fccc73;
+  text-decoration: none;
+}
+
+.container section:first-child {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+/*.....................................
+  content
+ ......................................*/
+
+.default-content {
+  color: #211A1D;
+}
+
+.default-content a {
+  font-weight: bold;
+  color: #FAA916;
+}
+
+.default-content a:hover {
+  text-decoration: none;
+  color: #fccc73;
+}
+
+.small-content {
+  font-size: 15px;
+}
+
+.separator {
+  width:60%;
+}
+
+/*.....................................
+  main image
+ */
+
+.main-bg {
+  background: url('../images/fnalimg.jpg') 0 0 no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  text-align: left;
+  min-height: 700px;
+}
+
+.main-bg p {
+  color: #f7f7f7;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/*.....................................
+  boxes
+ ......................................*/
 .nova-block {
   background: url('../images/nova.png') 0 0 no-repeat;
 }
@@ -46,6 +121,7 @@ body {
   opacity: 1;
   cursor: pointer;
 }
+
 
 .overlay-nova,
 .overlay-dune,
@@ -93,14 +169,4 @@ body {
   .ub-block {
     margin-bottom: 20px
   }
-}
-
-.bg-navbar {
-  background-color: #282828;
-}
-
-.container section:first-child {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 25px;
 }
