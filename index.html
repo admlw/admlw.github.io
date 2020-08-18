@@ -39,124 +39,99 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-navbar pt-3 pb-3">
       <div class="container">
         <a class="page-title" href="#">
-          ADAM LISTER
+          ADAM LISTER.
         </a>
-        <button class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse"></div>
-        <div class="collapse navbar-collapse"
-             id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="html/about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="html/research.html">Research</a>
-            </li>
-          </ul>
-        </div>
       </div>
     </nav>
 
-    <!-- Page Content -->
-    <p> <hr class="separator"> </p>
-    <!-- img -->
+    <section class="">
+      <div class="container-fluid default-content bg-top-panel">
+        <div class="row pt-3">
+          <div class="col-md-1 col-lg-1 col-xl-3"></div>
+          <div class="col-md-4 col-lg-4 col-xl-2">
+            <h1 class="header">Hi!</h1>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-4">
+            <p class=" pt-md-4 default-content">I'm a particle physicist currently based at University of Wisconsin-Madison working mainly on the <a href="https://novaexperiment.fnal.gov/">NOvA</a> and <a href="https://www.dunescience.org/">DUNE</a> experiments. My research focuses primarily on sterile neutrino searches and development of liquid argon detectors.</p>
+          </div>
+          <div class="col-md-1 col-lg-1 col-xl-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="separator">
+
     <section class="mt-2">
-      <div class="container py-2 default-content mt-3">
-        <div class="row d-flex justify-content-center">
-          <div class="col">
-                <p>Hi! I'm a particle physicist based at University of Wisconsin-Madison working mainly on the <a href="https://novaexperiment.fnal.gov/">NOvA</a> and <a href="https://www.dunescience.org/">DUNE</a> experiments. Research on sterile neutrino searches and development of liquid argon detectors.</p>
+      <div class="container">
+        <h1 class="default-content">research</h1>
+        <p>I currently work as part of the NOvA and DUNE collaborations</p>
+        <div class="row">
+          <div class="col content-box mx-2 p-4 text-center">
+            NOvA is the current flagship experiment of the Fermi National Accelerator Laboratory. The primary goal of the experiment is to make precision measurements of neutrino oscillations.
+          </div>
+          <div class="col content-box mx-2 p-4 text-center">
+              DUNE is the next-generation neutrino oscillation experiment, which will expand the reach of NOvA with much larger event counts, allowing even more precise measurements such as CP violation.
           </div>
         </div>
+        <p class="mt-3">Previously, I completed my PhD while working on the MicroBooNE experiment. MicroBooNE is a short-baseline experiment trying to verify or refute a set of anomalous results from the last two decades.</p>
       </div>
-      <div class="container py-2">
-        <div class="row d-flex justify-content-center">
-          <div class="col">
-            <div class="main-bg w-800 h-700">
-              <div class="bottom-right">
-                <p>Fermi National Accelerator Laboratory, USA</p>
+      <div class="container-fluid py-3">
+        <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-2">
+            <div class="dune-block w-100 mx-auto">
+              <div class="overlay-dune h-100 w-100"></div>
+              <div>
+                <h3><a href="https://www.dunescience.org/">DUNE</a></h3>
               </div>
             </div>
           </div>
+          <div class="col-lg-2">
+            <div class="nova-block w-100 mx-auto">
+              <div class="overlay-nova h-100 w-100"></div>
+              <div>
+                <h3><a href="https://novaexperiment.fnal.gov/">NOvA</a></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="ub-block w-100 mx-auto">
+              <div class="overlay-ub h-100 w-100"></div>
+              <div>
+                <h3><a href="https://microboone.fnal.gov/">MicroBooNE</a></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3"></div>
         </div>
       </div>
     </section>
 
-    <!--
-   < <section class="mt-2">
-      <a id="about">
-        <div class="container py-2">
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-3">
-              <div class="dune-block w-100">
-                <div class="overlay-dune h-100 w-100"></div>
-                <div>
-                  <h3><a href="#">DUNE</a></h3>
-                </div>
-              </div>
-            </div>
+    <hr class="separator">
 
-            <div class="col-lg-3">
-              <div class="nova-block w-100">
-                <div class="overlay-nova h-100 w-100"></div>
-                <div>
-                  <h3><a href="#">NOvA</a></h3>
-                </div>
-              </div>
+    <footer class="page-footer font-small">
+      <div class="container-fluid">
+        <div class="row text-center pb-3" >
+            <div class="col">
+              <a href="http://twitter.com/dradamlister">
+                <img class="mx-1" src="images/Twitter_Social_Icon_Circle_Color.png" width=32>
+              </a>
+              <a href="http://github.com/admlw">
+               <img class="mx-1" src="images/GitHub-Mark-64px.png" width=32>
+              </a>
+              <a href="https://orcid.org/0000-0002-3449-6425">
+                <img class="mx-1" src="images/ORCIDiD_icon128x128.png" width=32>
+              </a>
             </div>
-
-            <div class="col-lg-3">
-              <div class="ub-block w-100">
-                <div class="overlay-ub h-100 w-100"></div>
-                <div>
-                  <h3><a href="#">MicroBooNE</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
-    </section>
-    -->
-    <p> <hr class="separator"> </p>
+        <div class="footer-copyright pb-3 small-content text-center">
+          © 2020 Copyright Adam Lister
+          <img src = "images/pflag.png" style="width:20px;">
+        </div>
+      </div>
+    </footer>
   </body>
-
-  <footer class="page-footer font-small">
-    <div class="container text-center text-md-left">
-      <div class="row">
-          <div class="col text-center">
-            <a href="http://twitter.com/dradamlister">
-              <img class="mx-1" src="images/Twitter_Social_Icon_Circle_Color.png" width=32>
-            </a>
-            <a href="http://github.com/admlw">
-              <img class="mx-1" src="images/GitHub-Mark-64px.png" width=32>
-            </a>
-            <a href="https://orcid.org/0000-0002-3449-6425">
-              <img class="mx-1" src="images/ORCIDiD_icon128x128.png" width=32>
-            </a>
-          </div>
-      </div>
-    </div>
-
-    <p> <hr class="separator"> </p>
-
-    <div class="footer-copyright text-center pb-3 small-content">
-      © 2020 Copyright Adam Lister
-      <img src = "images/pflag.png" style="width:20px;">
-    </div>
-  </footer>
 </html>
