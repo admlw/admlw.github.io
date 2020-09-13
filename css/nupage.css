@@ -1,9 +1,29 @@
+/*.....................................
+ global
+ ......................................*/
+
+:root {
+  --primary-color: #87A330;
+  --secondary-color: #1C1D22;
+}
+
+/* alt scheme */
+/*
+:root {
+  --primary-color: #4ECDC4;
+  --secondary-color:#292F36;
+}
+*/
+
+/*.....................................
+main
+ ......................................*/
 
 body {
   background-color: #FFFFFF;
   font-size: 16px;
   font: Helvetica, Ariel, sans-serif;
-  color: #211A1D;
+  color: #0C090D;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -26,12 +46,12 @@ footer-copyright {
 
 a {
   font-weight: bolder;
-  color:#4ECDC4;
+  color: var(--primary-color);
 }
 
 a:hover {
   font-weight: bolder;
-  color: #4ECDC4;
+  color: var(--primary-color);
 }
 
 /*.....................................
@@ -39,32 +59,28 @@ a:hover {
  ......................................*/
 .welcome {
   height: 400px;
-  background-color: #292F36;
+  background-color: var(--secondary-color);
 }
 
 .welcome-text {
   margin-top: -10px;
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 .page-title {
   font-family: overpass;
   font-size: 100px;
   font-weight: bolder;
-  color: #4ECDC4;
+  color: var(--primary-color);
   line-height: 100px;
   text-align: center;
-}
-
-.inspire-container {
-
 }
 
 .card {
   margin-top:    5px;
   margin-bottom: 5px;
-  padding: 10px;
-  padding-left: 20px;
+  padding:       10px;
+  padding-left:  20px;
   padding-right: 20px;
 }
 
@@ -72,7 +88,7 @@ a:hover {
   font-size: 25px;
   font-family: overpass;
   font-weight: bolder;
-  color:#4ECDC4;
+  color: var(--primary-color);
 }
 
 .card h2 {
