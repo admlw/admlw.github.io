@@ -17,6 +17,7 @@ html {
 h1 {
   font-family: overpass;
   text-align: center;
+  font-weight: bolder;
 }
 
 footer-copyright {
