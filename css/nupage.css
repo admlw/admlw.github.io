@@ -22,12 +22,27 @@ footer-copyright {
   font-size: 15px;
 }
 
+a {
+  font-weight: bolder;
+  color:#4ECDC4;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: #4ECDC4;
+}
+
 /*.....................................
   title
  ......................................*/
 .welcome {
   height: 800px;
   background-color: #292F36;
+}
+
+.welcome-text {
+  margin-top: -10px;
+  color: #FFFFFF
 }
 
 .page-title {
