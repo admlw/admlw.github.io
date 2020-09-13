@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/nupage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nupage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/access_inspire.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/access_inspire.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597624122257</updated>
       <workItem from="1597624124527" duration="11357000" />
-      <workItem from="1599941884415" duration="17306000" />
+      <workItem from="1599941884415" duration="20246000" />
     </task>
     <servers />
   </component>
