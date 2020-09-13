@@ -22,7 +22,6 @@
     <list default="true" id="40ecfae5-b63a-4f35-b1d5-05488337cb60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/nupage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nupage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597624122257</updated>
       <workItem from="1597624124527" duration="11357000" />
-      <workItem from="1599941884415" duration="21594000" />
+      <workItem from="1599941884415" duration="21837000" />
     </task>
     <servers />
   </component>

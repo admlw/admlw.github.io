@@ -38,7 +38,7 @@ a:hover {
   title
  ......................................*/
 .welcome {
-  height: 800px;
+  height: 400px;
   background-color: #292F36;
 }
 
@@ -49,10 +49,10 @@ a:hover {
 
 .page-title {
   font-family: overpass;
-  font-size: 120px;
+  font-size: 100px;
   font-weight: bolder;
   color: #4ECDC4;
-  line-height: 120px;
+  line-height: 100px;
   text-align: center;
 }
 
