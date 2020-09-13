@@ -22,8 +22,14 @@
     <list default="true" id="40ecfae5-b63a-4f35-b1d5-05488337cb60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/nupage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nupage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2019-05-11.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dune.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dune.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/fnalimg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nova.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nova.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/uboone.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/uboone.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -59,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597624122257</updated>
       <workItem from="1597624124527" duration="11357000" />
+      <workItem from="1599941884415" duration="13252000" />
     </task>
     <servers />
   </component>
@@ -66,6 +74,15 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
