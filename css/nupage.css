@@ -19,10 +19,6 @@ body {
   font-size: 20px;
   font: Helvetica, Ariel, sans-serif;
   color: var(--primary-text-color);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
   height: 100%;
 }
 
@@ -35,6 +31,21 @@ h1 {
   font-size: 50px;
   font-weight: bolder;
   color: var(--primary-color);
+}
+
+a {
+  font-weight: normal;
+  color: var(--primary-color);
+  text-decoration: none;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+a:hover {
+  font-weight: normal;
+  color: #DB8906;
+  text-decoration: none;
+  opacity: 1;
 }
 
 /* content */
@@ -50,6 +61,7 @@ h1 {
 .title-card p {
   padding-left: 3%;
   padding-right: 3%;
+  font-weight: normal
 }
 
 .card1 {
@@ -143,21 +155,4 @@ footer img {
   margin-top: -2px;
 }
 
-/* urls */
-/* ----------------- */
-
-a {
-  font-weight: bolder;
-  color: var(--primary-color);
-  text-decoration: none;
-  opacity: 1;
-  transition: 0.3s;
-}
-
-a:hover {
-  font-weight: bolder;
-  color: #DB8906;
-  text-decoration: none;
-  opacity: 1;
-}
 
