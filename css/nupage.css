@@ -3,7 +3,7 @@
  ......................................*/
 
 :root {
-  --primary-color: #DC493A;
+  --primary-color: #157A6E;
   --primary-background-color: #F5F4F5; 
   --primary-text-color: #0C090D;
   --secondary-background-color: #EBEAEA;
@@ -43,7 +43,7 @@ a {
 
 a:hover {
   font-weight: normal;
-  color: #DB8906;
+  color: #499F68;
   text-decoration: none;
   opacity: 1;
 }
